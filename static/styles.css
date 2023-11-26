@@ -1,0 +1,105 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    background: #eee;
+    padding: 1rem;
+    height: 100%;
+}
+
+
+.content {
+    min-height: calc(100vh - 120px);
+}
+
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+
+h3 {
+    text-align: center
+}
+
+
+input, button {
+    width: 95%;
+}
+
+
+form {
+    text-align: center;
+}
+
+input[type=text] {
+    font-size: 1em;
+    text-align: left;
+    padding: 2% 3%;
+    box-sizing: border-box;
+    border: solid transparent;
+    outline: none;
+}
+
+
+button {
+    margin: auto;
+    font-size: 1em;
+    background-color: #FCCA03;
+    border: none;
+    color: white;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+
+.outputHeader {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
+blockquote {
+    font-family: 'Special Elite';
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.4;
+    margin: 0 5%;
+}
+
+blockquote:before {
+    content: '“';
+}
+
+blockquote:after {
+    content: '”';
+}
+
+
+.badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background: #054ce6;
+    color: white;
+    font-weight: 600;
+}
+
+.Positive {
+    background: #3cc73e;
+}
+
+.Negative {
+    background: #f51848;
+}

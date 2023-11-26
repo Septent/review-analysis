@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="column">
+            <p class="outputHeader">Message</p>
+        </div>
+        <div class="column">
+            <p class="outputHeader">Sentiment</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <blockquote>
+                {{ message }}
+            </blockquote>
+        </div>
+        <div class="column">
+            <div class="badge {{ sentiment }}">{{ sentiment }}</div>
+        </div>
+
+    </div>
+{% endblock %}
